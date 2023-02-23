@@ -1,0 +1,51 @@
+form {
+      /* Para centrar el formulario en la página*/
+      margin: 0 50px;
+      width: 550px;
+      /* Para darle un poco de estilo al formulario*/
+      padding: 1em;
+      border: 1px solid #CCC;
+      border-radius: 1em;
+      background: #F2E0F7;
+}
+
+div {
+      margin-top: 1em;
+}
+
+label {
+      /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+      display: inline-block;
+      width: 130px;
+      text-align: right;
+      font-weight: bold;
+}
+
+input:focus {
+      /* Para dar un pequeño destaque en elementos activos*/
+      border-color: #000;
+}
+
+input {
+      border: 1px solid #999;
+}
+
+#boton {
+      margin: 0 200px;
+      width: 70px;
+      height: 25px;
+}
+
+h1,
+h3 {
+      margin-left: 50px;
+}
+
+
+/* Declaración de estilo para cuando se produce un error de validación en el formulario */
+.error {
+      display: inline;
+      width: 300px;
+      color: red;
+      font-weight: bold;
+}
